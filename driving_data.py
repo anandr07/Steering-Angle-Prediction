@@ -1,4 +1,5 @@
 import scipy.misc
+import math
 import random
 
 xs = []
@@ -13,7 +14,7 @@ with open("driving_dataset/data.txt") as f:
     for line in f:
         xs.append("driving_dataset/" + line.split()[0])
         # Saving image paths in xs 
-        ys.append(float(line.split()[1]) * scipy.pi / 180)
+        ys.append(float(line.split()[1]) * math.pi / 180)
         # Saving steering angle (Output) in ys
 
 # Get the total number of images

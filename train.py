@@ -1,3 +1,4 @@
+#%%
 import os
 import tensorflow as tf
 from tensorflow.core.protobuf import saver_pb2 # Protocol buffer definition for the TensorFlow saver
@@ -58,3 +59,5 @@ for epoch in range(epochs):
 print("Run the command line:\n" \
           "--> tensorboard --logdir=./logs " \
           "\nThen open http://0.0.0.0:6006/ into your web browser")
+
+# %%
