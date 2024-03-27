@@ -1,7 +1,7 @@
 # Autonomous Car Steering Control using Convolutional Neural Networks
 
 ## Overview
-This project implements an end-to-end deep learning approach for autonomous car steering control using Convolutional Neural Networks (CNNs). The system, also known as the DAVE-2 system developed by Nvidia, is designed to map raw pixel data from a front-facing camera directly to steering commands, enabling self-driving functionality. Unlike traditional approaches that require manual decomposition of tasks such as lane detection, semantic abstraction, path planning, and control, the DAVE-2 system learns to perform these tasks automatically from human steering angle data.
+This project implements an end-to-end deep learning approach for autonomous car steering control using Convolutional Neural Networks (CNNs). The model used is the DAVE-2 end-to-end CNN Model developed by Nvidia with some modifications, it is designed to map raw pixel data from a front-facing camera directly to steering commands, enabling self-driving functionality. Unlike traditional approaches that require manual decomposition of tasks such as lane detection, semantic abstraction, path planning, and control, the DAVE-2 system learns to perform these tasks automatically from human steering angle data.
 
 ## Key Features
 - **End-to-End Learning**: The system learns the internal representations necessary for processing raw pixel data to generate steering commands without the need for explicit feature extraction or task decomposition.
